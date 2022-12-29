@@ -1,10 +1,11 @@
-import NavBar from "./compenent/Navbar";
-
+import Nav1 from './compenent/Navbar'
+import testForm from './compenent/TestForm';
 
 function App() {
   return (
     <>
-    <Navbar></Navbar>
+    <Nav1  title="Auction Bidding" link1="Home" />
+    <testForm/>
     </>);
 } 
 
